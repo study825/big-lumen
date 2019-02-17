@@ -81,6 +81,8 @@ $app->singleton(
 // $app->register(App\Providers\AppServiceProvider::class);
 // $app->register(App\Providers\AuthServiceProvider::class);
 // $app->register(App\Providers\EventServiceProvider::class);
+// 注入仓储层
+$app->register(App\Providers\RepositoriesServiceProvider::class);
 
 /*
 |--------------------------------------------------------------------------
