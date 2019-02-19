@@ -33,8 +33,6 @@ class RepositoriesServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return [
-            UserInterface::class
-        ];
+        return [];
     }
 }
